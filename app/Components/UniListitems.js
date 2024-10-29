@@ -12,7 +12,7 @@ export default function UniListitems(props) {
       <div className='border-solid border-b-2 border-r-2 border-black w-[100%] flex px-5  py-3 items-center'>{universityName}</div>
       <div className='border-solid border-b-2 border-r-2 border-black w-[30%] flex px-5 py-3 justify-center items-center'>{country}</div>
       <div className='border-solid border-b-2 border-black w-[30%] flex px-5 py-3 justify-center items-center'>{state===null?'N/A':state}</div>
-      <div className='border-solid border-b-2 border-x-2 border-black w-[20%] flex px-5 py-3 justify-center items-center'><a target='_blank' rel="noreferrer" className='flex' href={uniWebsite}>Visit Site <img className='h-4 mx-1 my-2' src={png} alt="" /></a></div>
+      <div className='border-solid border-b-2 border-x-2 border-black w-[20%] flex px-5 py-3 justify-center items-center'><a target='_blank' rel="noreferrer" className='flex' href={uniWebsite}>Visit Site <img className='h-4 mx-1 my-2' src={png.src} alt="" /></a></div>
     </div>
     </div>
   )
