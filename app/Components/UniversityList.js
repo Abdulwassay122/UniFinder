@@ -26,7 +26,7 @@ export default function UniversityList(props) {
       setLoading(true)
       const country = document.getElementById('myInput').value
       setInputCount(country)
-      let url = `http://universities.hipolabs.com/search?country=${country.toLowerCase()}`
+      let url = `https://universities.hipolabs.com/search?country=${country.toLowerCase()}`
       let data = await fetch(url)
       props.setProgress(40)
       props.setProgress(50)
